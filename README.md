@@ -124,7 +124,7 @@
 
 ### 二 、 工厂模式
 **这种类型的设计模式属于创建型模式**
-![img.png](img.png)
+![img.png](DesignPattern-Study%2Fsrc%2Fmain%2Fresources%2Fimage%2Fimg.png)
 
 ```txt
 我们将创建一个 Shape 接口和实现 Shape 接口的实体类。下一步是定义工厂类 ShapeFactory。
@@ -135,6 +135,21 @@ FactoryPatternDemo 类使用 ShapeFactory 来获取 Shape 对象
 
 以便获取它所需对象的类型
 ```
+
+### 抽象工厂模式
+抽象工厂模式（Abstract Factory Pattern）
+
+他是一个超级工厂，用来创建其他工厂。
+
+这种类型的设计模式属于【创建型】模式
+
+![afp.png](DesignPattern-Study%2Fsrc%2Fmain%2Fresources%2Fimage%2Fafp.png)
+
+何时使用：当系统的产品有多于一个的产品族，而系统只消费其中某一族的产品。
+
+如何解决：在一个产品族里面，定义多个产品。
+
+主要解决接口选择的问题
 
 
 
