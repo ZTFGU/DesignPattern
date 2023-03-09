@@ -209,5 +209,4 @@ FactoryPatternDemo 类使用 ShapeFactory 来获取 Shape 对象
 
 我们通过下面的实例来演示装饰器模式的用法。其中，我们将把一个形状装饰上不同的颜色，同时又不改变形状类。
 
-
     
